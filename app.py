@@ -1,6 +1,8 @@
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
+app = Flask(__name__)
+
 
 # Define the API URL (Replace with actual API endpoint)
 API_URL = "https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY"
